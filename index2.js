@@ -5,6 +5,6 @@ nextISSTimesForMyLocation().then((data) => {
     let duration = item.duration;
     let datetime = new Date(0);
     datetime.setUTCSeconds(item.risetime);
-    console.log(`Next pass at ${datetime} for ${duration} seconds!`)
+    console.log(`Next pass at ${datetime} for ${duration} seconds!`);
   }
 });

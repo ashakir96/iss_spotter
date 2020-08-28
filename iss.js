@@ -63,10 +63,10 @@ const nextISSTimesForMyLocation = (callback) => {
           return;
         }
         callback(null, passTimes);
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};
 
 
 module.exports = {
